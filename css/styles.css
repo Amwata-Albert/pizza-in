@@ -144,7 +144,7 @@ body{
       line-height: 30px;
   }
   .section2{
-      min-height: 1000px;
+      min-height: 3000px;
   }
   .section2 h3{
       margin-top: -5%;
@@ -157,3 +157,64 @@ body{
     float: left;
     /* line-height: 30px; */
   }
+  .small{
+      width: 100%;
+      height: 300px;
+  }
+.small p{
+ float: left;
+ margin-left: 4%;
+}
+.small img{
+    width: 20%;
+    height: 200px;
+    margin-left: 4%;
+    float: left;
+}
+.small button{
+    float: left;
+ margin-left: 4%;
+ margin-top: 1%;
+ font-size: large;
+ background-color:yellowgreen;
+}
+.small1 button{
+    float: left;
+    margin-left:4%;
+    margin-top: 0.7%;
+    font-size: large;
+    background-color:yellowgreen;
+}
+.small1 p{
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.small1 img{
+    width: 30%;
+    height: 300px;
+    margin-left: 3%;
+    float: left;
+}
+.small2 button{
+    float: left;
+    margin-left:4%;
+    margin-top: 0.7%;
+    font-size: large;
+    background-color:yellowgreen;
+}
+.small2 p{
+    float: left;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.small2 img{
+    width: 43%;
+    height: 400px;
+    margin-left: 5%;
+    float: left;
+}
+.small2{
+    width: 100%;
+    float: left;
+}
