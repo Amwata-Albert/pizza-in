@@ -1,9 +1,14 @@
-body{background-color: white;}
+body{
+    /* background-color: white; */
+}
+.header{
+    background-color:red;
+    height: 100px;
+    height: 200px;
+    }
 nav{
-    text-align: center;
-    color: white;
-    /* margin-left: 3%; */
-    float: right;
+   
+    text-align: right;
     
     }
     nav ul{
@@ -24,10 +29,7 @@ nav{
     nav ul li a:hover{
         color:whitesmoke;
     }
-    .header{
-    background-color:white;
-    height: 100px;
-    }
+  
     .blue{
         margin-top: -4.5%;
         margin-left: 6%;
@@ -46,4 +48,13 @@ nav{
         margin-top: 8%;
         text-align: center;
     }
-   
+   .images img{
+       width: 300px;
+       height: 300px;
+       float: left;
+       padding: 1%;
+       margin-left: 6.2%;
+   }
+   .images{
+       background-color:black;
+   }
