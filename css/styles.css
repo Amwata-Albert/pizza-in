@@ -3,21 +3,18 @@ body{
 }
 .header{
     background-color:red;
-    height: 100px;
     height: 200px;
     }
 nav{
-   
     text-align: right;
-    
     }
-    nav ul{
+nav ul{
         display: inline;
         list-style: none;
         text-decoration: none;
     
     }
-    nav ul li a{
+nav ul li a{
         text-decoration: none;
         padding: 7px;
         color: black;
@@ -26,15 +23,15 @@ nav{
     
     }
     
-    nav ul li a:hover{
+nav ul li a:hover{
         color:whitesmoke;
     }
   
-    .blue{
+.blue{
         margin-top: -4.5%;
         margin-left: 6%;
     }
-    .image1 img{
+.image1 img{
         height: 150px;
         width: 150px;
         padding: 3%;
@@ -42,19 +39,19 @@ nav{
         /* margin-top: 8%;
         background-color: blue; */
     }
-    .image1{
+.image1{
         background-color: #66D19E;
         height: 400px;
         margin-top: 8%;
         text-align: center;
     }
-   .images img{
+.images img{
        width: 300px;
        height: 300px;
        float: left;
        padding: 1%;
        margin-left: 6.2%;
    }
-   .images{
+.images{
        background-color:black;
    }
