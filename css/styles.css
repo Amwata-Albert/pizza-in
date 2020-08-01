@@ -217,4 +217,48 @@ body{
 .small2{
     width: 100%;
     float: left;
+    margin-bottom: 5%;
+}
+.topping{
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    display: inline-flex;
+    height: 50%;
+    flex-wrap:wrap;
+    margin-bottom: 10%;
+}
+.t1 img{
+
+    width: 250px;
+    height: 200px;
+}
+.t1 button{
+    width: 70%;
+    float: left;
+    /* margin-left: 30%; */
+}
+.t1{
+    width: 250px;
+    height: 350px;
+}
+.t1 p{
+    width: 70%;
+    margin-left: 30%;
+    float: left;
+}
+.crusts p{
+    margin-top: -3%;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-style: italic;
+    width: 100%;
+    float: left;
+    /* line-height: 30px; */
+}
+.crusts img{
+    width: 20%;
+    height: 300px;
 }
