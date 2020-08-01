@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    font-family: "suditipos";
 }
 body{
     background-color: white;
@@ -128,4 +129,31 @@ body{
       border-radius:5px ;
       background-color:  #66D19E;
       
+  }
+  .section2 h4{
+      /* top: -10%; */
+      margin-top: -8%;
+      font-family: cursive;
+      font-size: 30px;
+      text-align: center;
+      color: darkgoldenrod;
+      font-style: italic;
+      width: 100%;
+      float: left;
+      /* margin-top: 5px; */
+      line-height: 30px;
+  }
+  .section2{
+      min-height: 1000px;
+  }
+  .section2 h3{
+      margin-top: -5%;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    color: darkgoldenrod;
+    font-style: italic;
+    width: 100%;
+    float: left;
+    /* line-height: 30px; */
   }
