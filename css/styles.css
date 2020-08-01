@@ -1,0 +1,44 @@
+nav{
+    text-align: center;
+    color: white;
+    /* margin-left: 3%; */
+    float: right;
+    
+    }
+    nav ul{
+        display: inline;
+        list-style: none;
+        text-decoration: none;
+    
+    }
+    nav ul li a{
+        text-decoration: none;
+        padding: 7px;
+        color: black;
+        color:lightsalmon;
+        float: right;
+    
+    }
+    
+    nav ul li a:hover{
+        color:whitesmoke;
+    }
+    .header{
+    background-color:white;
+    height: 100px;
+    }
+    .blue{
+        margin-top: -4.5%;
+        margin-left: 6%;
+    }
+    .image1 img{
+        height: 300px;
+        width: 1300px;
+        margin-top: 8%;
+        background-color: blue;
+    }
+    .image1{
+        background-color: #66D19E;
+        height: 300px;
+        margin-top: 8%;
+    }
