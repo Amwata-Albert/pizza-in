@@ -118,7 +118,7 @@ body{
       width: 30%;
       height: 300px;
       float: center;
-  }
+  }.section2
   .p1{
       text-align: center;
       font-size: 30px;
@@ -144,7 +144,7 @@ body{
       line-height: 30px;
   }
   .section2{
-      min-height: 3000px;
+      min-height: 3400px;
   }
   .section2 h3{
       margin-top: -5%;
@@ -217,7 +217,7 @@ body{
 .small2{
     width: 100%;
     float: left;
-    margin-bottom: 5%;
+    margin-bottom: -5%;
 }
 .topping{
     margin-top: 50px;
@@ -247,7 +247,7 @@ body{
     margin-left: 30%;
     float: left;
 }
-.crusts p{
+.crusts h6{
     margin-top: -3%;
     font-family: cursive;
     font-size: 25px;
@@ -259,6 +259,41 @@ body{
     /* line-height: 30px; */
 }
 .crusts img{
-    width: 20%;
+    width: 100%;
     height: 300px;
+    float: left;
+    /* margin-left: 60%; */
+}
+.c1{
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+.crusts P{
+    margin-left: 25%;
+}
+.crusts{
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 400px;
+}
+.order{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size:40px;
+    /* margin-top: 50%; */
+}
+.order-now{
+    float: left;
+    margin-left: 40%;
+    line-height: 70px;
+    background-color: lightgreen;
+    width: 20%;
+    border-radius: 5px;
+    min-height: 150px;
+}
+.order-now table td,table th,table{
+    border: 1px solid black;
+    
 }
