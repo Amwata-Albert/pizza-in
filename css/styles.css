@@ -144,7 +144,7 @@ body{
       line-height: 30px;
   }
   .section2{
-      min-height: 3400px;
+      min-height: 3300px;
   }
   .section2 h3{
       margin-top: -5%;
@@ -287,13 +287,25 @@ body{
 .order-now{
     float: left;
     margin-left: 40%;
-    line-height: 70px;
-    background-color: lightgreen;
-    width: 20%;
+    /* background-color: lightgreen; */
+    width: 20%; 
     border-radius: 5px;
     min-height: 150px;
+    margin-top: 7%;
 }
-.order-now table td,table th,table{
+table, td, th {
     border: 1px solid black;
-    
-}
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+  }
+  .order-now button{
+      margin-left: 30%;
+      margin-top: 10%;
+  }
