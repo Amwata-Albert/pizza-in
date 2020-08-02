@@ -33,13 +33,15 @@ body{
 }
     
 .nav ul li a:hover{
-    color:skyblue;
+    color: #087956;
+    
     }
   
 .blue{
     margin-top: -4.5%;
     margin-left: 6%;
     }
+   
 .image1 img{
     height: 150px;
     width: 150px;
@@ -78,15 +80,18 @@ body{
        height: 400px;
        background-color: black;
        color: white;
-       margin-top: -10%;
+       /* float: left; */
+       /* width: 100% */
+      
        
    }
    .section1{
        height: 900px;
    }
    .end1{
+       width: 700px;
        margin-right: 200%;
-       margin-top: -12%;
+       margin-top: -3%;
        float: left;
      
    }
@@ -97,7 +102,8 @@ body{
    }
    .ul1{
        text-decoration: none;
-       margin-left: 70%;  
+       margin-left: 70%; 
+       
     }
     .ul1 li{
         color: white;
@@ -109,11 +115,9 @@ body{
        text-decoration:none;
    }
   .ul2{
-     margin-left: 70%;
-     
-     
-      
-  }
+     margin-left: 50%;
+     margin-top: -20%;
+     }
   .ul2 li a{
       text-decoration: none;
   }
@@ -125,6 +129,7 @@ body{
   .p1{
       text-align: center;
       font-size: 30px;
+      /* margin-bottom: 15%; */
   }
   .p1 button{
       font-size: 20px;
@@ -146,7 +151,7 @@ body{
       line-height: 30px;
   }
   .section2{
-      min-height: 3300px;
+      min-height: 3400px;
   }
   .section2 h3{
       margin-top: -5%;
@@ -323,3 +328,36 @@ table, td, th {
       margin-left: 30%;
       margin-top: 10%;
   }
+  .section3 h1{
+    color: #087956;
+    font-family: times;
+  }
+  .section3{
+      min-height: 3000px;
+  }
+  .credentials input{
+      margin-top: 20px;
+      width: 50%;
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    color: #555;
+    font-family: 'Muli',sans-serif;
+    font-size: 13px;
+    height: 46px;
+    /* margin: 0px 0 0; */
+    box-sizing: border-box;
+    line-height: 10px   ;
+  }
+  .credentials input:last-child{
+      width: 20px;
+  }
+  .credentials button{
+      margin-top: 3%;
+      background-color: #087956;
+      font-size: 20px;
+  }
+  .video{
+      /* border: 1px solid black; */
+      border-collapse: collapse;
+      float: left;
+      }
