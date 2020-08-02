@@ -78,13 +78,15 @@ body{
        height: 400px;
        background-color: black;
        color: white;
+       margin-top: -10%;
    }
    .section1{
        height: 900px;
    }
    .end1{
-       /* margin-left: 10%; */
-       margin-top: 1%;
+       margin-right: 200%;
+       margin-top: -12%;
+       float: left;
      
    }
    .top-image img{
@@ -94,8 +96,7 @@ body{
    }
    .ul1{
        text-decoration: none;
-       margin-left: 70%;
-       
+       margin-left: 70%;  
     }
     .ul1 li{
         color: white;
@@ -108,7 +109,7 @@ body{
    }
   .ul2{
      margin-left: 50%;
-     margin-top:-14% ;
+     
       
   }
   .ul2 li a{
@@ -311,6 +312,7 @@ table, td, th {
   table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: -50%;
   }
   
   th {
