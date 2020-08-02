@@ -79,6 +79,7 @@ body{
        background-color: black;
        color: white;
        margin-top: -10%;
+       
    }
    .section1{
        height: 900px;
@@ -108,7 +109,8 @@ body{
        text-decoration:none;
    }
   .ul2{
-     margin-left: 50%;
+     margin-left: 70%;
+     
      
       
   }
@@ -132,7 +134,6 @@ body{
       
   }
   .section2 h4{
-      /* top: -10%; */
       margin-top: -8%;
       font-family: cursive;
       font-size: 30px;
