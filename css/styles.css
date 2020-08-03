@@ -8,16 +8,11 @@ body{
 .header{
     height: 200px;
     }
-.nav{
-    /* text-align: right; */
-    }
+
 .nav ul{
     float: right;
     margin-top: -1%;
-    /* display: inline;
-    list-style-type: none;
-    margin: 0;
-    padding: 0; */
+  
     
     }
     ul li{
@@ -361,3 +356,82 @@ table, td, th {
       border-collapse: collapse;
       float: left;
       }
+     .search{
+         float: right;
+         margin-right: 5%;
+         margin-top: -53%;
+
+     }
+    .search input{
+        height: 39px;
+        margin-left: -10px;
+    }
+    .search button{
+        font-size:25px;
+        margin-left: 1%;
+        float: right;
+        margin-top: -19.5%;
+        height:45px ;
+        background-color: #087956;
+    }
+    .branches h4{
+        color: #087956;
+        font-family: 'Dancing Script',cursive;
+        text-transform: inherit;
+        font-weight: normal;
+    }
+    .branches{
+        float: right;
+        margin-top: -45% ;
+        margin-right: 15%;
+    }
+    .names{
+        float: right;
+        margin-left: 70%;
+        margin-top: -40%;
+        font-size: 20px;
+        line-height: 22px;
+        width: 30%;
+
+    }
+    .tezt2{
+    
+        margin-top: 22%;
+       
+        height: 100px;
+        /* width: 40%; */
+    }
+    .tezt2 h4{
+        color: #087956;
+        float: right;
+        margin-right: 20%;
+        font-weight: normal;
+    }
+    .tezt2 p{
+        font-size: 20px;
+        height: 10%;
+        line-height: 40px;
+        float: right;
+        margin-top:4%;
+        margin-right: -17%;
+    }
+    .tezt3 h4{
+        color: #087956;
+        float: right;
+        margin-right: 60%;
+        font-weight: normal;
+    }
+    .tezt3{
+        /* background-color: red; */
+        width: 30%;
+        height: 100px;
+        float: right;
+        margin-top: 5% ;
+        margin-left: 5%;
+    }
+    .tezt3 p{
+        margin-top: 25%;
+        line-height: -30px;
+        margin-right: -10%;
+        
+    }

@@ -1,10 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 
     <title>pizza-in</title>
 </head>
@@ -47,7 +49,7 @@
             <img src="images/LARGE1.png" alt="">
            
             <P>PRICE: KSH 1550</P>
-            <button id="pizzalarge">order pizza</button>
+            <button id="pizzalarge" onclick="orders()">order pizza</button>
         </div>
         <h5 class="order">get one free topping and one free crust per pizza</h5>
         <div class="topping">
@@ -56,63 +58,63 @@
             <div class="t1">
                 <img src="images/peperonii.jpg" alt="">
                 <p>peperoni</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="peperoni"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/mashroom.jpeg" alt="">
                 <p>mashrooms</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="mushroom"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/onions.jpg" alt="">
                 <p>onions</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="onion"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/sausage.jpeg" alt="">
                 <p>sausage</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="sausage"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/bacon.jpg" alt="">
                 <p>bacon</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="bacon"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/extra cheese.jpeg" alt="">
                 <p>extra cheese</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="cheese"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/black olives.webp" alt="">
                 <p>black olives</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="olives"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/green pepper.jpeg" alt="">
                 <p>green peppers</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="pepper"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/pineaple.jpeg" alt="">
                 <p>pineaple</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="pineaple"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/spinach.jpg" alt="">
                 <p>spinach</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="spinach"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/grilled chicken.jpg" alt="">
                 
                 <p>grilled chicken</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="chicken"><a href="orders.html">order topping</a></button></p> 
             </div>
             <div class="t1">
                 <img src="images/scallion.jpg" alt="">
                 <p>scallions</p>
-                <p><button><a href="orders.html">order topping</a></button></p> 
+                <p><button id="scallion"><a href="orders.html">order topping</a></button></p> 
                 
             </div>
             
@@ -124,39 +126,33 @@
             <div class="c1">
                 <img src="images/chicago.jpg" alt="">
                 <p>chicago style</p>
-                <p><button>order crust</button></p>
+                <p><button onclick="orders()" id="chicago">order crust</button></p>
             </div>
             <div class="c1">
                 <img src="images/sicillian.jpg" alt="">
                 <p>sicilian style</p>
-                <p><button>order crust</button></p>
+                <p><button id="sicillian">order crust</button></p>
             </div>
             <div class="c1">
                 <img src="images/new york.jpg" alt="">
                 <p>New york style</p>
-                <p><button>order crust</button></p>
+                <p><button id="newyork">order crust</button></p>
             </div>
             <div class="c1">
                 <img src="images/st louis.jpg" alt="">
                 <p>st louis style</p>
-                <p><button>order crust</button></p>
+                <p><button id="louis">order crust</button></p>
             </div>
         </div>
         <div class="order-now">
-            <table>
+            <table id="table">
                 <tr>
-                    <th>ITEM</th>
-                    <th>QUANTITY</th>
-                    <th>PRICE</th>
-                    <th>TOTAL</th>
+                   
+                    <th>pizza size</th>
+                   
                     
                 </tr>
-                <tr>
-                    <td>Nmae</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+               
             </table>
            
             <button id="place-order"> place order now</button>

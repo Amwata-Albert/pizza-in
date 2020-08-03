@@ -1,7 +1,7 @@
 
 let pizzaSmall=document.getElementById("pizzasmall").value="Pizza small";
 let pizzaMedium=document.getElementById("pizzamedium").value="pizza medium";
-let pizzaLarge=document.getElementById("pizzalarge").value="pizza ----large";
+let pizzaLarge=document.getElementById("pizzalarge").value="pizza large";
 let peperoni=document.getElementById("peperoni").value;
 let mushroom=document.getElementById("mushroom").value;
 let onion=document.getElementById("onion").value;
@@ -21,16 +21,23 @@ let louis=document.getElementById("louis").value;
 let table=document.getElementById("table");
 // let placeorder=document.getElementById("placeorder").value;
 let newRow=table.insertRow(table.rows.length);
+
+$("#pizzalarge").click(function(){
+    let cellOfPizzaSizes=newRow.insertCell(0);
+    cellOfPizzaSizes.innerHTML=pizzaLarge;
+});
+
+$("#pizzamedium").click(function(){
+    let cellOfPizzaSizes=newRow.insertCell(0);
+    cellOfPizzaSizes.innerHTML=pizzaMedium;
+});
+
+$("#pizzasmall").click(function(){
+    let cellOfPizzaSizes=newRow.insertCell(0);
+    cellOfPizzaSizes.innerHTML=pizzaSmall;
+});
 function orders(){
-  
-    let cellOfPizzaSize=newRow.insertCell(0);
-    let cellOfPizzaCrust=newRow.insertCell(1);
-    let cellOfPizzaTopping=newRow.insertCell(2);
-
-
-    cellOfPizzaSize.innerHTML=pizzaLarge;
-    cellOfPizzaCrust.innerHTML=chicago;
-    cellOfPizzaTopping.innerHTML=mushroom;
+ 
 
 }
-// orders();
+orders();
