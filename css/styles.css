@@ -1,5 +1,6 @@
 *{
     text-decoration: none;
+    list-style-type: none;
     font-family: "suditipos";
 }
 body{
@@ -19,17 +20,27 @@ body{
     text-decoration: none;
 }
 .toppy{
-    background-color: red;
+    float: right;
+    color: red;
+    margin-right: 10%;
+    height: 60px;
+    margin-top: 4%;
 }
 .toppy button{
     font-size: 30px;
-    float: right;
-    background-color: red;
-    margin-top: 4.5%;
+    margin-top: 2%;
+    margin-left: -0%;
+    height: 50px;
     border-radius: 5px;
+    background-color: red;
+}
+.toppy button a:hover{
+    background-color: #087956 ;
 }
 .header{
-    height: 200px;
+    margin-left: 5%;
+    float: center;
+    width: 90%;
     background-color: black;
     height: 70px;
     margin-bottom: 10%;
@@ -48,6 +59,7 @@ ul li{
         padding: 7px;
         display:inline-flex;
         background-color: white;
+        height: 30px;
         flex-flow: row-reverse;
     }
 .nav ul li a{
@@ -57,7 +69,7 @@ ul li{
 }
     
 .nav ul li a:hover{
-    color: #087956;
+    background-color: #087956;
     
     }
   
@@ -175,7 +187,8 @@ ul li{
       line-height: 30px;
   }
   .section2{
-      min-height: 3400px;
+      min-height: 3300px;
+      margin-top: -2.%;
   }
   .section2 h3{
       margin-top: -5%;
@@ -421,6 +434,7 @@ table, td, th {
         font-size: 20px;
         line-height: 22px;
         width: 30%;
+        
 
     }
     .tezt2{
@@ -480,4 +494,66 @@ table, td, th {
         font-size: 20px;
         line-height: 50px;
         width: 30%;
+    }
+    .text11{
+        color: #087956;
+        font-family: times;
+        font-weight: normal;
+        letter-spacing: 1px;
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        line-height: 10px;
+        margin-left: 5%;
+    }
+    .section4{
+        min-height: 1800px;
+        width: -10%;
+    }
+    .imagez img{
+        margin-left: 5%;
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .tex{
+        margin-top: 5%;
+        color: #087956;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    .paragragh1{
+        float: left;
+        width: 50%;
+        height: 200px;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    .imagezz img{
+        margin-bottom: 10%;
+         margin-left: -50%;
+        width: 400px;
+        height: 300px;
+        border-radius: 5px;
+    }
+    .imagezz{
+        /* background-color: red; */
+        margin-top: 10%;
+    }
+    .lastp{
+        /* float: left; */
+        height: 200px;
+        width: 50%;
+        margin-left: 5%;
+        margin-top: -10%;
+    }
+    .contactp{
+        color:  #087956;
+        font-size: 30px;
+        margin-left: 5%;
+        font-weight: normal;
+        letter-spacing: 1px;
     }
