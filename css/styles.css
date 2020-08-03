@@ -7,18 +7,23 @@ body{
 }
 .header{
     height: 200px;
+    background-color: black;
+    height: 70px;
+    margin-bottom: 10%;
     }
 
 .nav ul{
-    float: right;
-    margin-top: -1%;
+    float: left;
+    /* margin-top: -1%; */
+    /* background-color:white; */
+    margin-bottom: 5%;
   
     
     }
-    ul li{
+ul li{
         padding: 7px;
         display:inline-flex;
-       
+        background-color: white;
         flex-flow: row-reverse;
     }
 .nav ul li a{
@@ -93,7 +98,7 @@ body{
    .top-image img{
        height: 400px;
        width: 100%;
-       margin-top: -13%;
+       margin-top: -8%;
    }
    .ul1{
        text-decoration: none;
@@ -328,7 +333,7 @@ table, td, th {
     font-family: times;
   }
   .section3{
-      min-height: 3000px;
+      min-height: 1500px;
   }
   .credentials input{
       margin-top: 20px;
@@ -426,12 +431,29 @@ table, td, th {
         width: 30%;
         height: 100px;
         float: right;
-        margin-top: 5% ;
+        margin-top: -1%;
         margin-left: 5%;
+
     }
     .tezt3 p{
         margin-top: 25%;
         line-height: -30px;
         margin-right: -10%;
         
+    }
+    .names4{
+        float: right;
+        margin-left: 70%;
+        margin-top: -3%;
+        font-size: 20px;
+        line-height: 50px;
+        width: 30%;
+    }
+    .namez{
+        float: right;
+        margin-left: 70%;
+        margin-top: -3%;
+        font-size: 20px;
+        line-height: 50px;
+        width: 30%;
     }
