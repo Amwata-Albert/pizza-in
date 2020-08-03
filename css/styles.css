@@ -5,11 +5,35 @@
 body{
     background-color: white;
 }
+.topbar{
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 500;
+    /* background-color: tomato; */
+    width: 40%;
+    text-align: center;
+   float: right;
+   margin-right: 30%;
+    margin-top: -5%;
+    color: #087956;
+    text-decoration: none;
+}
+.toppy{
+    background-color: red;
+}
+.toppy button{
+    font-size: 30px;
+    float: right;
+    background-color: red;
+    margin-top: 4.5%;
+    border-radius: 5px;
+}
 .header{
     height: 200px;
     background-color: black;
     height: 70px;
     margin-bottom: 10%;
+    margin-top: 5%;
     }
 
 .nav ul{
