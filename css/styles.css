@@ -348,6 +348,16 @@ ul li{
     min-height: 150px;
     margin-top: 7%;
 }
+.order-now1{
+    float: left;
+    margin-left: 30%;
+    background-color: lightgreen;
+    width: 50%; 
+    border-radius: 5px;
+    min-height: 150px;
+    margin-top: 7%;
+    display: inline-flex;
+}
 table, td, th {
     border: 1px solid black;
   }
@@ -618,7 +628,25 @@ table, td, th {
         line-height: 40px;
         height: 50px;
     }
-
+    #classyy6{
+        background-color:  #087956;
+        width: 97%;
+        margin-top: 4%;
+        margin-left: 1%;
+        text-align: center;
+        line-height: 40px;
+        height: 50px;
+    }
+    #classyy11,#classyy31,#classyy21,#classyy41,#classyy51,#classyy61{
+        background-color:  #087956;
+        width: 97%;
+        margin-top: 4%;
+        margin-left: 1%;
+        text-align: center;
+        line-height: 40px;
+        height: 50px;
+    }
+   
     #place-order{
         width: 400px;
         float: left;
@@ -630,4 +658,15 @@ table, td, th {
         height: 100px;
         background-color: #087956;
         float: left;
+    }
+    .section5{
+        height: 400px;
+    }
+    #checked1{
+        font-size: 70%;
+        
+
+    }
+    #checked1~checked{
+        width: 20%;
     }
