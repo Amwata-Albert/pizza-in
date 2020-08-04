@@ -41,6 +41,7 @@
             <img src="images/small3.jpg" alt="">
             <P>PRICE: KSH 750</P>
             <button id="pizzasmall" value="pizzasmall" onclick="orders()">order pizza</button>
+            <p>(please check your ordered pizza at the end of orders)</p>
         </div>
         <div class="small1">
             <h2>MEDIUM</h2>
@@ -49,6 +50,7 @@
             <img src="images/medium3.jpeg" alt="">
             <P>PRICE: KSH 1000</P>
             <button id="pizzamedium" value="pizza medium" onclick="orders()">order pizza</button>
+            <p>(please check your ordered pizza at the end of orders)</p>
         </div>
         <div class="small2">
             <h2>LARGE</h2>
@@ -56,6 +58,7 @@
             <img src="images/LARGE1.png" alt="">
             <P>PRICE: KSH 1550</P>
             <button id="pizzalarge" onclick="orders()" value="pizzalarge">order pizza</button>
+            <p>(please check your ordered pizza at the end of orders)</p>
         </div>
         <h5 class="order">get one free topping and one free crust per pizza</h5>
         <div class="topping">
@@ -64,63 +67,75 @@
             <div class="t1">
                 <img src="images/peperonii.jpg" alt="">
                 <p>peperoni</p>
-                <p><button id="peperoni" onclick="orders()" value="peproni">order topping</button></p> 
+                <p><button id="peperoni" onclick="orders()" value="peproni">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/mashroom.jpeg" alt="">
                 <p>mashrooms</p>
-                <p><button id="mushroom" onclick="orders()" value="mushroom">order topping</button></p> 
+                <p><button id="mushroom" onclick="orders()" value="mushroom">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/onions.jpg" alt="">
                 <p>onions</p>
-                <p><button id="onion" value="onion"onclick="orders()">order topping</button></p> 
+                <p><button id="onion" value="onion"onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p> 
             </div>
             <div class="t1">
                 <img src="images/sausage.jpeg" alt="">
                 <p>sausage</p>
                 <p><button id="sausage" onclick="orders()">order topping</button></p> 
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p> 
             </div>
             <div class="t1">
                 <img src="images/bacon.jpg" alt="">
                 <p>bacon</p>
-                <p><button id="bacon" onclick="orders()">order topping</button></p> 
+                <p><button id="bacon" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/extra cheese.jpeg" alt="">
                 <p>extra cheese</p>
                 <p><button id="cheese" onclick="orders()">order topping</button></p> 
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p> 
             </div>
             <div class="t1">
                 <img src="images/black olives.webp" alt="">
                 <p>black olives</p>
-                <p><button id="olives" onclick="orders()">order topping</button></p> 
+                <p><button id="olives" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p> 
             </div>
             <div class="t1">
                 <img src="images/green pepper.jpeg" alt="">
                 <p>green peppers</p>
-                <p><button id="pepper" onclick="orders()">order topping</button></p> 
+                <p><button id="pepper" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/pineaple.jpeg" alt="">
                 <p>pineaple</p>
-                <p><button id="pineaple" onclick="orders()">order topping</button></p> 
+                <p><button id="pineaple" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/spinach.jpg" alt="">
                 <p>spinach</p>
-                <p><button id="spinach" onclick="orders()">order topping</button></p> 
+                <p><button id="spinach" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/grilled chicken.jpg" alt="">
                 
                 <p>grilled chicken</p>
-                <p><button id="chicken" onclick="orders()">order topping</button></p> 
+                <p><button id="chicken" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
             </div>
             <div class="t1">
                 <img src="images/scallion.jpg" alt="">
                 <p>scallions</p>
-                <p><button id="scallion" onclick="orders()">order topping</button></p> 
+                <p><button id="scallion" onclick="orders()">order topping</button></p>
+                <p style="margin-top: -5%;">(please check your ordered pizza at the end of orders)</p>  
                 
             </div>
             
@@ -182,15 +197,18 @@
         <div class="class1">
            <p> <input type="checkbox" id="checked1" >Delivery</p>
            <p> <input type="checkbox" id="checked2">No Delivery</p>
-           <button onclick="ordering()">order</button>
+           <button onclick="ordering()" id="ord">order</button>
         </div>
  </section>
    
     <footer class="footer">
         <div style="height: 100px;" class="end1">
            <p style="width: 300px;"><h1 style="color: white;float: left;">Pizza<h1> <h1 class="blue" style="color: blue;float: left;margin-top: 2.5%;margin-left: -0%;">Eats</h1> </p> 
+           <div style="margin-top: 11%; margin-left: -18%;" class="video">
+            <video src="video/video.mp4" controls="" width="300px" height="200px"></video>
+         </div>
         </div> 
-        <div class="ul1">
+        <!-- <div class="ul1">
             <ul>
                 <li><a href="Get help">Get help</a></li>
                 <li><a href="">Read FAQs</a></li>
@@ -207,7 +225,7 @@
                 <li><a href="">Add your restaurant</a></li>
                 <li><a href="">Create business account</a></li>
             </ul>      
-        </div>
+        </div> -->
        
     </footer>
   

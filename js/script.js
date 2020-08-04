@@ -1,7 +1,7 @@
 
 let pizzaSmall=document.getElementById("pizzasmall").value="Pizzasmall";
 let pizzaMedium=document.getElementById("pizzamedium").value="pizza medium";
-let pizzaLarge=document.getElementById("pizzalarge").value="pizza --large";
+let pizzaLarge=document.getElementById("pizzalarge").value="pizza large";
 let peperoni=document.getElementById("peperoni").value="peperoni";
 let mushroom=document.getElementById("mushroom").value="mushroom";
 let onion=document.getElementById("onion").value="onion";
@@ -146,8 +146,11 @@ function orders(){
 }
 function ordering(){
 
-    if(delivery=checked){
-        alert("named");
+    if(Delivery=checked){
+        $("ord").click(function(){
+            alert("your mdhdsdjfffnfnfjj");
+        });
+       
     }
 
 }

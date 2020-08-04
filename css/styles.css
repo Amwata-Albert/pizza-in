@@ -113,7 +113,7 @@ ul li{
        color: black;
    }
    .footer{
-       height: 400px;
+       height: 270px;
        background-color: black;
        color: white;
        /* float: left; */
@@ -574,7 +574,7 @@ table, td, th {
     }
 
     #classyy1{
-        background-color: green;
+        background-color:  #087956;
         width: 97%;
         margin-top: 4%;
         height: 50px;
@@ -583,7 +583,7 @@ table, td, th {
         line-height: 40px;
     }
     #classyy2{
-        background-color: green;
+        background-color:  #087956;
         width: 97%;
         margin-top: 4%;
         height: 50px;
@@ -592,7 +592,7 @@ table, td, th {
         line-height: 40px;
     }
     #classyy3{
-        background-color: green;
+        background-color:  #087956;
         width: 97%;
         margin-top: 4%;
         margin-left: 1%;
@@ -601,7 +601,7 @@ table, td, th {
         height: 50px;
     }
     #classyy4{
-        background-color: green;
+        background-color:  #087956;
         width: 97%;
         margin-top: 4%;
         margin-left: 1%;
@@ -610,7 +610,7 @@ table, td, th {
         height: 50px;
     }
     #classyy5{
-        background-color: green;
+        background-color:  #087956;
         width: 97%;
         margin-top: 4%;
         margin-left: 1%;
@@ -628,6 +628,6 @@ table, td, th {
         margin-left: 30%;
         margin-right: 30%;
         height: 100px;
-        background-color: red;
+        background-color: #087956;
         float: left;
     }
