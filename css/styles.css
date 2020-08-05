@@ -101,10 +101,12 @@ ul li{
     height: 300px;
     float: left;
     padding: 1%;
-    margin-left: 6.2%;
+    margin-left: 6.5%;
    }
 .images{
        background-color:black;
+       margin-left: -2%;
+      
    }
    button{
        color: black;
@@ -138,11 +140,11 @@ ul li{
    }
    .ul1{
        text-decoration: none;
-       margin-left: 70%; 
+       margin-left: 40%; 
        
     }
     .ul1 li{
-        color: white;
+        /* color: white; */
     }
     .ul1 li,.ul2 li{
         display: block;

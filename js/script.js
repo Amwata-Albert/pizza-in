@@ -187,7 +187,7 @@ function ordering(){
             // let abcd=abc.innerText;
             let delivery_address=prompt("enter your delivery address");
             $("#sub1").click(function(){
-                alert("Dear customer, Your pizza orders to :"+delivery_address+" for "+quantity.textContent+" Pieces of "+size.textContent+" At a total of Ksh:"+price.textContent+" has been proccesed");
+                alert("Dear customer, Your pizza orders to :"+delivery_address+" for "+quantity.textContent+" Pieces of "+size.textContent+" At a total of Ksh:"+price.textContent+" has been proccesed and will be delivered to "+ delivery_address);
             });
         }
         else{
