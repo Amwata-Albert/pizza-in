@@ -187,7 +187,7 @@ ul li{
       line-height: 30px;
   }
   .section2{
-      min-height: 3300px;
+      height: 3500px;
       margin-top: -2.%;
   }
   .section2 h3{
@@ -264,11 +264,11 @@ ul li{
     margin-bottom: -5%;
 }
 .topping{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-left: 10%;
     width: 80%;
     display: inline-flex;
-    height: 50%;
+    height: 30%;
     flex-wrap:wrap;
     margin-bottom: 10%;
 }
@@ -293,7 +293,7 @@ ul li{
     float: left;
 }
 .crusts h6{
-    margin-top: -3%;
+    /* margin-top: -3%; */
     font-family: cursive;
     font-size: 25px;
     text-align: center;
@@ -301,7 +301,7 @@ ul li{
     font-style: italic;
     width: 100%;
     float: left;
-    /* line-height: 30px; */
+    line-height: 30px;
 }
 .crusts img{
     width: 100%;
@@ -341,22 +341,28 @@ ul li{
 }
 .order-now{
     float: left;
-    margin-left: 40%;
-    /* background-color: lightgreen; */
-    width: 20%; 
+    margin-left: 30%;
+    background-color: lightgreen;
+    width: 40%; 
     border-radius: 5px;
     min-height: 150px;
     margin-top: 7%;
 }
 .order-now1{
     float: left;
-    margin-left: 30%;
+    margin-left: 20%;
     background-color: lightgreen;
-    width: 50%; 
+    width: 60%; 
     border-radius: 5px;
-    min-height: 150px;
+    min-height: 80px;
     margin-top: 7%;
     display: inline-flex;
+}
+.order-now1 button{
+    width: 90px;
+    height: 40px;
+    float: left;
+    margin-top: 3.5%;
 }
 table, td, th {
     border: 1px solid black;
@@ -585,7 +591,7 @@ table, td, th {
 
     #classyy1{
         background-color:  #087956;
-        width: 97%;
+        width: 100px;
         margin-top: 4%;
         height: 50px;
         margin-left: 1%;
@@ -603,7 +609,7 @@ table, td, th {
     }
     #classyy3{
         background-color:  #087956;
-        width: 97%;
+        width: 100px;
         margin-top: 4%;
         margin-left: 1%;
         text-align: center;
@@ -612,7 +618,7 @@ table, td, th {
     }
     #classyy4{
         background-color:  #087956;
-        width: 97%;
+        width: 100px;
         margin-top: 4%;
         margin-left: 1%;
         text-align: center;
@@ -621,16 +627,16 @@ table, td, th {
     }
     #classyy5{
         background-color:  #087956;
-        width: 97%;
+        width: 80px;
         margin-top: 4%;
         margin-left: 1%;
         text-align: center;
-        line-height: 40px;
-        height: 50px;
+        line-height: 30px;
+        height: 40px;
     }
     #classyy6{
         background-color:  #087956;
-        width: 97%;
+        width: 100px;
         margin-top: 4%;
         margin-left: 1%;
         text-align: center;
@@ -639,9 +645,9 @@ table, td, th {
     }
     #classyy11,#classyy31,#classyy21,#classyy41,#classyy51,#classyy61{
         background-color:  #087956;
-        width: 97%;
+        width: 100px;
         margin-top: 4%;
-        margin-left: 1%;
+        margin-left: 5px;
         text-align: center;
         line-height: 40px;
         height: 50px;
@@ -669,4 +675,9 @@ table, td, th {
     }
     #checked1~checked{
         width: 20%;
+    }
+    .classy input{
+        float: left;
+        width: 30px;
+        margin-top: 30px;
     }
