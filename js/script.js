@@ -141,8 +141,9 @@ function orders(){
 
             classyy2.innerHTML=louis;
         });   
-        window.location.href="orders.html";
+        // window.location.href="orders.html";
 }
+orders();
 
 // orders processing code 1
 function ordering(){
